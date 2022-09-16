@@ -14,14 +14,34 @@
     font-weight: bold;
 }
 
-.nav-bar:hover {
+.nav-link:hover {
     text-decoration: underline;
 }
 
 @media (min-width: 500px) {
 
-    .header {
+    .nav-container {
         display: flex;
     }    
 
+    .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+    }
+    
 }
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.button-container > h2 {
+    margin-bottom: 20px;
+}
+

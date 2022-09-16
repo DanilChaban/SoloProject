@@ -8,12 +8,16 @@
 
 :root {
     --text-color: #282623;
-    --bg-color: #fbbe36;
+    --bg-color: #31ab6c;
     scroll-behavior: smooth;
     font-family: 'Lato', sans-serif;
 }
 
 img {
     width: 250px;
+}
+
+body {
+    background-image: url(../img/bg-burger.jpg);
 }
 
