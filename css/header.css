@@ -43,21 +43,3 @@
 
 }
 
-.button-container>h2 {
-    margin-bottom: 20px;
-}
-
-.submit-button {
-    background-color: var(--bg-color);
-    max-width: 150px;
-    width: 100%;
-    min-height: 30px;
-    margin: 15px 0;
-    border: 0;
-    border-radius: 50px;
-    cursor: pointer;
-}
-
-.submit-button:hover {
-    background-color: red;
-}
