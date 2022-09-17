@@ -1,0 +1,13 @@
+.icon-container {
+    width: 50px;
+}
+
+.text-container { 
+    display: block;
+}
+
+.text-container__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -10,12 +10,11 @@
 </head>
 
 <body>
-    <h2>Hello World</h2>
+
     <header class="header">
-        <h2>Hello World</h2>
         <nav class="nav-bar">
             <div class="nav-container">
-                <img class="header-img" src="/img/Burger-logo.svg" alt="Logo Snowman Cafe">
+                <img class="header-img" src="/img/burger-logo.svg" alt="Logo Snowman Cafe">
                 <a class="nav-link" href="#">About us</a>
                 <a class="nav-link" href="#">Menu</a>
                 <a class="nav-link" href="#">Catering</a>
@@ -27,36 +26,42 @@
             <div class="button-container">
                 <h2>Quick Catering Request</h2>
                 <form id="form" action="https://www.freecodecamp.com/email-submit">
-                    <input id="email" type="text" placeholder="Enter your email address" required>
-                    <button id="submit" type="button">Send</button>
+                    <input class="email" type="text" placeholder="Enter your email address" required>
+                    <button class="button" type="submit">Send</button>
                 </form>
             </div>
-            <div class="text-container">
-                <h2>Franchising</h2>
-                <p>The easiest way to open a profitable business and start earning right now!</p>
-            </div>
-            <div class="text-container">
-                <h2>Catering</h2>
-                <p>Surprise your guests with juicy burgers and save on the event menu with our special offers!</p>
-            </div>
-            <div class="burger-menu">
-                <div class="burger-menu__container">
-                    <h2>Burger menu</h2>
+            <div class="text-container__section">
+                <img class="icon-container" src="/img/burger-icon.svg" alt="Burger Icon">
+                <div class="text-container">
+                    <h2>Franchising</h2>
+                    <p>The easiest way to open a profitable business and start earning right now!</p>
                 </div>
-                <article class="card"> 
-                    <img class="card-image" src="img/Double Beef.png" alt="Double Beef">
+            </div>
+            <div class="text-container__section">
+                <img class="icon-container" src="/img/burger-icon.svg" alt="Burger Icon">
+                <div class="text-container">
+                    <h2>Catering</h2>
+                    <p>Surprise your guests with juicy burgers and save on the event menu with our special offers!</p>
+                </div>
+            </div>
+            <div class="menu-container">
+                <h2>Burger menu</h2>
+            </div>
+            <div class="card">
+                <article>
+                    <img class="card-image" src="img/double-beef.png" alt="Double Beef">
                     <h3>Double Beef</h3>
                     <p>2 patties,home-made sauce,tomato,and cheddar cheese</p>
                     <p>$12.00</p>
                 </article>
-                <article class="card">
-                    <img class="card-image" src="img/Freshburger.png" alt="Freshburger">
+                <article>
+                    <img class="card-image" src="img/freshburger.png" alt="Freshburger">
                     <h3>Freshburger</h3>
                     <p>Beef,red onion relish,lettuce,two kinds of pepper & classic sauce</p>
                     <p>$13.00</p>
                 </article>
-                <article class="card">
-                    <img class="card-image" src="img/Black_Hamburger.png" alt="Black Hamburger">
+                <article>
+                    <img class="card-image" src="img/black_hamburger.png" alt="Black Hamburger">
                     <h3>Black Hamburger</h3>
                     <p>Fresh bun with squid ink,beef patty,red onion,and cheese</p>
                     <p>$23.00</p>
