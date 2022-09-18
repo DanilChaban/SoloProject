@@ -4,7 +4,7 @@
 
 .submit-button {
     background-color: var(--bg-color);
-    text-transform: uppercase ;
+    text-transform: uppercase;
     font-weight: bold;
     max-width: 150px;
     width: 100%;
@@ -43,19 +43,19 @@
 @media (max-width: 500px) {
     .text-container {
         max-width: 300px;
-        w5
+        width: 100%;
         margin: 0 auto;
         margin-bottom: 10px;
     }
-} 
-
-.video-container {
-   margin-top: 50px;
-   display: flex;
-   justify-content: center;
 }
 
-.video-container > iframe {
+.video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.video-container>iframe {
     max-width: 560px;
     width: 100%;
 }
@@ -78,7 +78,7 @@
     border: 1px solid #000;
 }
 
-.pricing > .text-card {
+.pricing>.text-card {
     padding: 15px 0;
     width: 100%;
     text-transform: uppercase;
@@ -96,15 +96,15 @@
 
 @media (max-width: 800px) {
 
-.card {
-    flex-direction: column;
-}
+    .card {
+        flex-direction: column;
+    }
 
-.pricing {
-    max-width: 300px;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
+    .pricing {
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
 
 }
